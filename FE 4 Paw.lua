@@ -174,7 +174,7 @@ local function align(Part0, Part1)
         local vel = Part0.Velocity
         con0 = renderstepped:Connect(function()
             if not (Part0 and Part1) then return con0:Disconnect() and con1:Disconnect() end
-            Part0.Velocity = framevel
+--            Part0.Velocity = framevel
         end)
         local lastpos = Part0.Position
         con1 = heartbeat:Connect(function(delta)
