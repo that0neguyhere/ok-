@@ -2037,6 +2037,7 @@ local Chips = "onebearnakedwoman"
 ----------------------------------------------------------------------------------
 hum.JumpPower = 55
 hum.Animator.Parent = nil
+char.Animate.Parent = nil
 ----------------------------------------------------------------------------------
 Chips = IT("Model")
 Chips.Parent = char
