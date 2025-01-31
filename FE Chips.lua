@@ -1,6 +1,6 @@
 game:GetService('TextChatService').TextChannels.RBXGeneral:SendAsync("-gh 17229402035 asdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasd")
 
-wait(1)
+wait(2)
 
 --reanimate by MyWorld#4430 discord.gg/pYVHtSJmEY
 --the code that looks trash and works great
