@@ -1,3 +1,7 @@
+game:GetService('TextChatService').TextChannels.RBXGeneral:SendAsync("-gh 17229402035 asdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasd")
+
+wait(0.75)
+
 --reanimate by MyWorld#4430 discord.gg/pYVHtSJmEY
 --the code that looks trash and works great
 local healthHide = false --moves your head away every 3 seconds so players dont see your health bar (alignmode 4 only)
