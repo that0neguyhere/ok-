@@ -2042,7 +2042,7 @@ RHe.Parent = Chips
 RHe.BrickColor = BrickColor.new("Really black")
 RHe.Locked = true
 RHe.CanCollide = false
-RHe.Transparency = 0
+RHe.Transparency = 1
 PMesh = IT("SpecialMesh")
 RHe.formFactor =  "Symmetric"
 PMesh.MeshType = "FileMesh"
@@ -2056,9 +2056,9 @@ RWeld.Part0 = RHe
 RWeld.Part1 = ra
 RWeld.C0 = CF(-1.2, -0.5, 0) * angles(Rad(90), Rad(0), Rad(90))
 
-game:GetService("Players").LocalPlayer.Character["Accessory (Meshes/doritosAccessory)"].Handle.att1_Handle.Parent = Chips
-Chips.att1_Handle.Rotation = Vector3.new(-0,0,0)
-Chips.att1_Handle.Position = Vector3.new(-0,0,0)
+game:GetService("Players").LocalPlayer.Character["Accessory (Meshes/doritosAccessory)"].Handle.att1_Handle.Parent = RHe
+RHe.att1_Handle.Rotation = Vector3.new(-0,0,0)
+RHe.att1_Handle.Position = Vector3.new(-0,0,0)
 
 -------------------------------------------------------
 --End Customization--
