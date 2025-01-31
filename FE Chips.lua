@@ -2055,6 +2055,11 @@ RWeld.Parent = RHe
 RWeld.Part0 = RHe
 RWeld.Part1 = ra
 RWeld.C0 = CF(-1.2, -0.5, 0) * angles(Rad(90), Rad(0), Rad(90))
+
+game:GetService("Players").LocalPlayer.Character["Accessory (Meshes/doritosAccessory)"].Handle.att1_Handle.Parent = Chips
+Chips.att1_Handle.Rotation = Vector3.new(-0,0,0)
+Chips.att1_Handle.Position = Vector3.new(-0,0,0)
+
 -------------------------------------------------------
 --End Customization--
 -------------------------------------------------------
