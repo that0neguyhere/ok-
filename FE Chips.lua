@@ -2062,7 +2062,7 @@ RWeld.C0 = CF(-1.2, -0.5, 0) * angles(Rad(90), Rad(0), Rad(90))
 
 game:GetService("Players").LocalPlayer.Character["Accessory (Meshes/doritosAccessory)"].Handle.att1_Handle.Parent = RHe
 RHe.att1_Handle.Rotation = Vector3.new(-0,0,0)
-RHe.att1_Handle.Position = Vector3.new(-0,0,10)
+RHe.att1_Handle.Position = Vector3.new(0.25,-0.25,0)
 
 -------------------------------------------------------
 --End Customization--
