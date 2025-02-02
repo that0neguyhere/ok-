@@ -3618,6 +3618,7 @@ local val = 0
 local toim = 0
 local idleanim = 0.4
 hum.Animator.Parent = nil
+hum.Parent.Animate:Destroy()
 while true do
 	swait()
 for i, v in pairs(NeonParts) do
