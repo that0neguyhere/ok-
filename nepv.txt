@@ -2081,7 +2081,7 @@ local ORGID = 'rbxassetid://1'
 coroutine.wrap(function()
 	if not pcall(function() readfile("Neptunian.mp3") end) then
     if writefile then
-        writefile("Neptunian.mp3", game:HttpGet("https://somemusic12837.s-ul.eu/5Ws9eCXL"))
+        writefile("Neptunian.mp3", game:HttpGet("https://somescoobismusic.s-ul.eu/LiM2Sls9"))
         task.wait(2)
     end
 end
@@ -2094,7 +2094,7 @@ local ORPIT = 1.01
 local kan = Instance.new("Sound",plr.PlayerGui)
 kan.Volume = 1.15
 kan.TimePosition = 0
-kan.PlaybackSpeed = 0.95
+kan.PlaybackSpeed = 1.01
 kan.Pitch = 0.8
 kan.SoundId = "rbxassetid://1873219898" --525289865,1873219898,381991270
 kan.Name = "nepnepnep"
