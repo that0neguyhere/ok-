@@ -1,4 +1,4 @@
-game:GetService('TextChatService').TextChannels.RBXGeneral:SendAsync("-gh 17229402035 asdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasd")
+game:GetService('TextChatService').TextChannels.RBXGeneral:SendAsync("-gh 17229402035")
 
 wait(2)
 
@@ -2523,3 +2523,4 @@ end
 -------------------------------------------------------
 --End Animations And Script--
 -------------------------------------------------------
+
