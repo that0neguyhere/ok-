@@ -1,7 +1,7 @@
 --REQUIRES A GRAY DUMMY RIG!--
 script = Instance.new("LocalScript")
 
-game:GetService('TextChatService').TextChannels.RBXGeneral:SendAsync("-gh 14463468, 12565541, 11142504, 4641686175, 10911958, 18171461221, 18198346598, 16846072887, 8207687270, 4602286484, 11679229, 11679119 dasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdas")
+game:GetService('TextChatService').TextChannels.RBXGeneral:SendAsync("-gh 14463468, 12565541, 11142504, 4641686175, 10911958, 18171461221, 18198346598, 16846072887, 8207687270, 4602286484, 11679229, 11679119")
 
 wait(2)
 
@@ -14,12 +14,12 @@ game.Players.LocalPlayer.Character["Racing Helmet Flames"].Handle.Mesh:Destroy()
 game.Players.LocalPlayer.Character["Racing Helmet Skull"].Name = "Bum1"
 game.Players.LocalPlayer.Character["Bum1"].Handle.Mesh:Destroy()
 wait(0.75)
-game:GetService('TextChatService').TextChannels.RBXGeneral:SendAsync("-gh 11679119 dasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdas")
+game:GetService('TextChatService').TextChannels.RBXGeneral:SendAsync("-gh 11679119")
 wait(0.75)
 game.Players.LocalPlayer.Character["Racing Helmet Skull"].Name = "Bum2"
 game.Players.LocalPlayer.Character["Bum2"].Handle.Mesh:Destroy()
 
-game:GetService('TextChatService').TextChannels.RBXGeneral:SendAsync("-net dasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdas")
+game:GetService('TextChatService').TextChannels.RBXGeneral:SendAsync("-net")
 
 local v3_net, v3_808 = Vector3.new(20000, 20000, 2000), Vector3.new(8, 0, 8)
 		local function getNetlessVelocity(realPartVelocity)
@@ -5181,3 +5181,4 @@ local e = mouse.Move:Connect(function()
 	end
 end)
 game.Players.LocalPlayer.Character.Humanoid.Died:Connect(function()event:Fire()for _,v in ipairs({a,b,c,d,e}) do v:Disconnect() end end)
+
