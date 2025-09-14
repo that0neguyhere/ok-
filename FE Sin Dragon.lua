@@ -1,9 +1,5 @@
 game:GetService('TextChatService').TextChannels.RBXGeneral:SendAsync("-gh 91231828844169, 80946588383348, 103553910759670")
 
-wait(0.75)
-
-game:GetService('TextChatService').TextChannels.RBXGeneral:SendAsync("-net")
-
 --reanimate by MyWorld#4430 discord.gg/pYVHtSJmEY
 --the code that looks trash and works great
 local healthHide = false --moves your head away every 3 seconds so players dont see your health bar (alignmode 4 only)
@@ -875,6 +871,10 @@ if flingpart0 and flingpart1 then
 end
 
 lp:GetMouse().Button1Down:Connect(fling) --click fling
+
+wait(5)
+
+game:GetService('TextChatService').TextChannels.RBXGeneral:SendAsync("-net")
 
 -----------------
 --some sin thing--
@@ -3043,4 +3043,5 @@ end
 end
 end
 end
+
 
