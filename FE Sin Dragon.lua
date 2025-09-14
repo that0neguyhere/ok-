@@ -1,8 +1,8 @@
-game:GetService('TextChatService').TextChannels.RBXGeneral:SendAsync("-gh 91231828844169, 80946588383348, 103553910759670 dasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdas")
+game:GetService('TextChatService').TextChannels.RBXGeneral:SendAsync("-gh 91231828844169, 80946588383348, 103553910759670")
 
 wait(0.75)
 
-game:GetService('TextChatService').TextChannels.RBXGeneral:SendAsync("-net dasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdas")
+game:GetService('TextChatService').TextChannels.RBXGeneral:SendAsync("-net")
 
 --reanimate by MyWorld#4430 discord.gg/pYVHtSJmEY
 --the code that looks trash and works great
@@ -3043,3 +3043,4 @@ end
 end
 end
 end
+
