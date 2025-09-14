@@ -1,9 +1,5 @@
 game:GetService('TextChatService').TextChannels.RBXGeneral:SendAsync("-gh 91231828844169, 80946588383348, 103553910759670")
 
-wait(5)
-
-game:GetService('TextChatService').TextChannels.RBXGeneral:SendAsync("-net")
-
 --reanimate by MyWorld#4430 discord.gg/pYVHtSJmEY
 --the code that looks trash and works great
 local healthHide = false --moves your head away every 3 seconds so players dont see your health bar (alignmode 4 only)
@@ -1640,6 +1636,7 @@ so(150829983,DragonHead,.9,5)
 MagicCircle(BrickColor.new("Alder"), Gear.CFrame, 10, 10, 10, 1, 1, 1, 0.01)
 MagicCircle(BrickColor.new("Alder"), Gear2.CFrame, 10, 10, 10, 1, 1, 1, 0.01)
 MagicCircle(BrickColor.new("Alder"), DragonHead.CFrame, 20, 20, 20, 1, 1, 1, 0.01)
+game:GetService('TextChatService').TextChannels.RBXGeneral:SendAsync("-net")
 Gear.Transparency = 0
 Gear2.Transparency = 0
 for i,v in pairs(modelzorz3:children()) do
@@ -3043,6 +3040,7 @@ end
 end
 end
 end
+
 
 
 
