@@ -869,6 +869,10 @@ if flingpart0 and flingpart1 then
 	end
 end
 
+wait(5)
+
+game:GetService('TextChatService').TextChannels.RBXGeneral:SendAsync("-net")
+
 function LoadLibrary(a)
 	local t = {}
 
@@ -2080,12 +2084,12 @@ ceuler = CFrame.fromEulerAnglesXYZ
 local ORGID = 'rbxassetid://1'
 coroutine.wrap(function()
 	if not pcall(function() readfile("Neptunian.mp3") end) then
-    if writefile then
-        writefile("Neptunian.mp3", game:HttpGet("https://somescoobismusic.s-ul.eu/LiM2Sls9"))
-        task.wait(2)
-    end
-end
-ORGID = getcustomasset('Neptunian.mp3')
+		if writefile then
+			writefile("Neptunian.mp3", game:HttpGet("https://somescoobismusic.s-ul.eu/LiM2Sls9"))
+			task.wait(2)
+		end
+	end
+	ORGID = getcustomasset('Neptunian.mp3')
 end)()
 
 local muter = false
@@ -2948,8 +2952,8 @@ function Damagefunc(Part, hit, minim, maxim, knockback, Type, Property, Delay, H
 			--h.MaxHealth = 100
 			--h.Health = h.Health - Damage
 			--if HitHealth ~= h.Health and HitHealth ~= 0 and 0 >= h.Health and h.Parent.Name ~= "Hologram" then
-				--print("gained kill")
-				--dmg(h.Parent)
+			--print("gained kill")
+			--dmg(h.Parent)
 			--end
 			ShowDamage(Part.CFrame * CFrame.new(0, 0, Part.Size.Z / 2).p + Vector3.new(0, 1.5, 0), -Damage, 1.5, Part.BrickColor.Color)
 		else
@@ -4457,4 +4461,4 @@ while true do
 		end
 	end
 end
-		-- convert by ca3r
+-- convert by ca3r
