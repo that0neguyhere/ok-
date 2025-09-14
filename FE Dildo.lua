@@ -1,4 +1,4 @@
-game:GetService('TextChatService').TextChannels.RBXGeneral:SendAsync("-gh 11679229,14463468,18891129662 asdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasd")
+game:GetService('TextChatService').TextChannels.RBXGeneral:SendAsync("-gh 11679229,14463468,18891129662")
 
 wait(0.75)
 
@@ -89,4 +89,5 @@ local unanchoredparts = {}
 		Character:WaitForChild("Right Arm"):FindFirstChild("Attachment").Name = "Attachment3"
 		Character:WaitForChild("Right Arm").Attachment1.Position = Vector3.new(0.35, -1, -0.5)
         Character:WaitForChild("Right Arm").Attachment2.Position = Vector3.new(-0.35, -1, -0.5)
+
 		Character:WaitForChild("Right Arm").Attachment3.Position = Vector3.new(0, -0.75, -2.5)
